@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Electrolize&display=swap');
+
+
+#pageBody {
+    background-image: url('../images/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+button {
+    font-size: 15px;
+    height: 60px;
+    width: 100px;
+    border-radius: 15px;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#header {
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 50px;
+    margin: 0px;
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 60vh;
+    margin-top: 30px;
+}
+
+#buttons1 {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons2 {
+    display: flex;
+    justify-content: center;
+}

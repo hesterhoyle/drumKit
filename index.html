@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>JS Drumkit</title>
+</head>
+<body id="pageBody">
+    <audio id="boomAud" src="sounds/boom.wav" type="audio/wav"></audio>
+    <audio id="clapAud" src="sounds/clap.wav" type="audio/wav"></audio>
+    <audio id="hihatAud" src="sounds/hihat.wav" type="audio/wav"></audio>
+    <audio id="kickAud" src="sounds/kick.wav" type="audio/wav"></audio>
+    <audio id="openhatAud" src="sounds/openhat.wav" type="audio/wav"></audio>
+    <audio id="rideAud" src="sounds/ride.wav" type="audio/wav"></audio>
+    <audio id="snareAud" src="sounds/snare.wav" type="audio/wav"></audio>
+    <audio id="tinkAud" src="sounds/tink.wav" type="audio/wav"></audio>
+    <audio id="tomAud" src="sounds/tom.wav" type="audio/wav"></audio>
+
+    <div>
+        <p id="header">Let's play the drums!</p>
+    </div>
+    <div id = "buttons">
+        <div id = "buttons1">
+            <button id = "boomButton" onclick="playBoom()">'A'<br>BOOM!</button>
+            <button id = "clapButton" onclick="playClap()">'S'<br>CLAP!</button>
+            <button id = "hihatButton" onclick="playHihat()">'D'<br>HI-HAT!</button>
+            <button id = "kickButton" onclick="playKick()">'F'<br>KICK!</button>
+        </div>
+        <div id = "buttons2">
+            <button id = "openhatButton" onclick="playOpenhat()">'G'<br>OPEN HAT!</button>
+            <button id = "rideButton" onclick="playRide()">'H'<br>RIDE!</button>
+            <button id = "snareButton" onclick="playSnare()">'J'<br>SNARE!</button>
+            <button id = "tinkButton" onclick="playTink()">'K'<br>TINK!</button>
+            <button id = "tomButton" onclick="playTom()">'L'<br>TOM!</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
